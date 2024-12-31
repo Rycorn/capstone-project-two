@@ -1,12 +1,43 @@
+
 .PlayingCardList {
   flex: 1;
   flex-direction: column;
+  justify-content:center;
   background: forestgreen;
-  border-radius: 10px;
-  margin: 10px;
+  border-radius: 0px;
+  margin: 0px;
   color: white;
 }
-
+.CardTable-heading {
+  background-color: #a3c9ab;
+  margin: 1% 0px;
+}
 .PlayingCardList-card-area {
   flex: 1;
+  flex-direction: row;
+  order: inherit;
+}
+.PlayingCardList-card-area-mid {
+  flex: 1;
+  margin: 2% auto;
+  flex-direction: row;
+}
+.PlayingCardList-card-area-mid .PlayingCardList-card-area-win {
+  flex: 1;
+  margin: 0% 0%;
+  flex-direction: row;
+}
+
+.CardTable {
+  text-align: center;
+  flex-direction: column;
+  width: 100%;
+  display: flex;
+  background: forestgreen;
+}
+
+.Big-Button {
+  width: 25%;
+  margin: 0 auto;
+  font-size: x-large;
 }
